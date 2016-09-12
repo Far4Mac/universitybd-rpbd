@@ -1,46 +1,52 @@
 <?php
+require_once ('../dbconnect.php');
+
+$dbc = db_connect();
+
+$query = "SELECT * FROM subjects";
+$data = mysqli_query($dbc, $query);
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Предметы</title>
-    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Студенты</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-<table>
-    <tr>
-        <th>Предмет</th>
-    </tr>
-    <tr>
-        <td>Microsoft</td>
-        <td>20.3</td>
-        <td>30.5</td>
-        <td>23.5</td>
-        <td>40.3</td>
-    </tr>
-    <tr>
-        <td>Google</td>
-        <td>50.2</td>
-        <td>40.63</td>
-        <td>45.23</td>
-        <td>39.3</td>
-    </tr>
-    <tr>
-        <td>Apple</td>
-        <td>25.4</td>
-        <td>30.2</td>
-        <td>33.3</td>
-        <td>36.7</td>
-    </tr>
-    <tr>
-        <td>IBM</td>
-        <td>20.4</td>
-        <td>15.6</td>
-        <td>22.3</td>
-        <td>29.3</td>
-    </tr>
-</table>
+<div class="jumbotron text-center">
+    <h1>База данных</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="list-group">
+                <a class="list-group-item" href="students.php">Студенты</a>
+                <a class="list-group-item" href="teachers.php">Преподаватели</a>
+                <a class="list-group-item active" href="subjects.php">Предметы</a>
+                <a class="list-group-item" href="cathedrals.php">Кафедры</a>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>Предмет</th>
+                    </tr>
+                    <tr>
+                        <?php while($row = mysqli_fetch_array($data)){
+                            echo '<td>' . $row['name'] . '</td>';}?>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+
+<?php
+mysqli_close($dbc);
