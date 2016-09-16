@@ -3,7 +3,7 @@ require_once ('../dbconnect.php');
 
 $dbc = db_connect();
 
-$query = "SELECT * FROM cathedrals";
+$query = "SELECT cath_name FROM cathedrals";
 $data = mysqli_query($dbc, $query);
 ?>
 
@@ -38,7 +38,7 @@ $data = mysqli_query($dbc, $query);
                     </tr>
                     <tr>
                         <?php while($row = mysqli_fetch_array($data)){
-                            echo '<td>' . $row['name'] . '</td>';}?>
+                            echo '<td>' . $row['cath_name'] . '</td>';}?>
                     </tr>
                 </table>
             </div>

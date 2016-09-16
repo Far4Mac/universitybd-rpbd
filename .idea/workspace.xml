@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="460b8ad6-ddac-4bec-8292-9d94c47f20ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/cathedrals.php" afterPath="$PROJECT_DIR$/views/cathedrals.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/students.php" afterPath="$PROJECT_DIR$/views/students.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/subjects.php" afterPath="$PROJECT_DIR$/views/subjects.php" />
@@ -53,10 +51,10 @@
       <file leaf-file-name="cathedrals.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/cathedrals.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="880">
+              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
               <folding>
-                <marker date="1473721487126" expanded="true" signature="74:98" ph="SELECT * FRO... cathedrals" />
+                <marker date="1473979691480" expanded="true" signature="74:106" ph="SELECT * FRO... cathedrals" />
               </folding>
             </state>
           </provider>
@@ -65,22 +63,22 @@
       <file leaf-file-name="subjects.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/subjects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="40" column="72" selection-start-line="39" selection-start-column="24" selection-end-line="40" selection-end-column="72" />
               <folding>
-                <marker date="1473721487218" expanded="true" signature="74:96" ph="SELECT * FRO... subjects" />
+                <marker date="1473979623752" expanded="true" signature="74:103" ph="SELECT * FRO... subjects" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teachers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teachers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/teachers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
+            <state relative-caret-position="129">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
-                <marker date="1473721487164" expanded="true" signature="74:96" ph="SELECT * FRO... teachers" />
+                <marker date="1473979530023" expanded="true" signature="74:181" ph="SELECT * FRO... teachers" />
               </folding>
             </state>
           </provider>
@@ -96,13 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="students.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="students.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/students.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="47" column="72" selection-start-line="44" selection-start-column="24" selection-end-line="47" selection-end-column="72" />
+            <state relative-caret-position="257">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
-                <marker date="1473721222209" expanded="true" signature="74:96" ph="SELECT * FRO... students" />
+                <marker date="1473984581478" expanded="true" signature="74:203" ph="SELECT * FRO... students" />
+                <marker date="1473984581478" expanded="true" signature="74:246" ph="SELECT stude... students" />
+                <marker date="1473984581478" expanded="true" signature="297:326" ph="SELECT group... groups" />
+                <marker date="1473984581478" expanded="true" signature="859:939" ph="INSERT INTO students... " />
+                <marker date="1473984581478" expanded="true" signature="859:1067" ph="INSERT INTO students... " />
+                <marker date="1473984581478" expanded="true" signature="859:1068" ph="INSERT INTO students... " />
+                <marker date="1473984581478" expanded="true" signature="954:1067" ph="SELECT '${$f... groups" />
+                <marker date="1473984581478" expanded="true" signature="6627:6770" ph="..." />
               </folding>
             </state>
           </provider>
@@ -126,11 +131,11 @@
         <option value="$PROJECT_DIR$/bdconnect.php" />
         <option value="$PROJECT_DIR$/university.sql" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/teachers.php" />
+        <option value="$PROJECT_DIR$/views/subjects.php" />
+        <option value="$PROJECT_DIR$/views/cathedrals.php" />
         <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/views/students.php" />
-        <option value="$PROJECT_DIR$/views/cathedrals.php" />
-        <option value="$PROJECT_DIR$/views/subjects.php" />
-        <option value="$PROJECT_DIR$/views/teachers.php" />
       </list>
     </option>
   </component>
@@ -145,10 +150,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="307" />
-    <option name="y" value="72" />
-    <option name="width" value="1400" />
-    <option name="height" value="459" />
+    <option name="x" value="199" />
+    <option name="y" value="329" />
+    <option name="width" value="1541" />
+    <option name="height" value="653" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,8 +230,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,17 +284,18 @@
       <workItem from="1473635182690" duration="2162000" />
       <workItem from="1473684710248" duration="2334000" />
       <workItem from="1473718858611" duration="2700000" />
+      <workItem from="1473978130499" duration="6602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7196000" />
+    <option name="totallyTimeSpent" value="13798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="307" y="72" width="1400" height="459" extended-state="0" />
+    <frame x="199" y="329" width="1541" height="653" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34659913" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451082" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -342,10 +348,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/cathedrals.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <marker date="1473979691480" expanded="true" signature="74:106" ph="SELECT * FRO... cathedrals" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/subjects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <marker date="1473979623752" expanded="true" signature="74:103" ph="SELECT * FRO... subjects" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teachers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1473979530023" expanded="true" signature="74:181" ph="SELECT * FRO... teachers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="72" selection-start-line="44" selection-start-column="24" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <marker date="1473984581478" expanded="true" signature="74:203" ph="SELECT * FRO... students" />
+            <marker date="1473984581478" expanded="true" signature="74:246" ph="SELECT stude... students" />
+            <marker date="1473984581478" expanded="true" signature="297:326" ph="SELECT group... groups" />
+            <marker date="1473984581478" expanded="true" signature="859:939" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1067" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1068" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="954:1067" ph="SELECT '${$f... groups" />
+            <marker date="1473984581478" expanded="true" signature="6627:6770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="6" selection-start-line="3" selection-start-column="0" selection-end-line="54" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cathedrals.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
-            <marker date="1473721487126" expanded="true" signature="74:98" ph="SELECT * FRO... cathedrals" />
+            <marker date="1473979691480" expanded="true" signature="74:106" ph="SELECT * FRO... cathedrals" />
           </folding>
         </state>
       </provider>
@@ -355,7 +432,7 @@
         <state relative-caret-position="198">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
-            <marker date="1473721487218" expanded="true" signature="74:96" ph="SELECT * FRO... subjects" />
+            <marker date="1473979623752" expanded="true" signature="74:103" ph="SELECT * FRO... subjects" />
           </folding>
         </state>
       </provider>
@@ -365,7 +442,7 @@
         <state relative-caret-position="198">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
-            <marker date="1473721487164" expanded="true" signature="74:96" ph="SELECT * FRO... teachers" />
+            <marker date="1473979530023" expanded="true" signature="74:181" ph="SELECT * FRO... teachers" />
           </folding>
         </state>
       </provider>
@@ -383,7 +460,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1473721222209" expanded="true" signature="74:96" ph="SELECT * FRO... students" />
+            <marker date="1473984581478" expanded="true" signature="74:203" ph="SELECT * FRO... students" />
+            <marker date="1473984581478" expanded="true" signature="74:246" ph="SELECT stude... students" />
+            <marker date="1473984581478" expanded="true" signature="297:326" ph="SELECT group... groups" />
+            <marker date="1473984581478" expanded="true" signature="859:939" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1067" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1068" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="954:1067" ph="SELECT '${$f... groups" />
+            <marker date="1473984581478" expanded="true" signature="6627:6770" ph="..." />
           </folding>
         </state>
       </provider>
@@ -409,7 +493,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1473721487126" expanded="true" signature="74:98" ph="SELECT * FRO... cathedrals" />
+            <marker date="1473979691480" expanded="true" signature="74:106" ph="SELECT * FRO... cathedrals" />
           </folding>
         </state>
       </provider>
@@ -419,7 +503,7 @@
         <state relative-caret-position="990">
           <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
           <folding>
-            <marker date="1473721487218" expanded="true" signature="74:96" ph="SELECT * FRO... subjects" />
+            <marker date="1473979623752" expanded="true" signature="74:103" ph="SELECT * FRO... subjects" />
           </folding>
         </state>
       </provider>
@@ -429,7 +513,7 @@
         <state relative-caret-position="1100">
           <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
           <folding>
-            <marker date="1473721487164" expanded="true" signature="74:96" ph="SELECT * FRO... teachers" />
+            <marker date="1473979530023" expanded="true" signature="74:181" ph="SELECT * FRO... teachers" />
           </folding>
         </state>
       </provider>
@@ -447,7 +531,14 @@
         <state relative-caret-position="1100">
           <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
           <folding>
-            <marker date="1473721222209" expanded="true" signature="74:96" ph="SELECT * FRO... students" />
+            <marker date="1473984581478" expanded="true" signature="74:203" ph="SELECT * FRO... students" />
+            <marker date="1473984581478" expanded="true" signature="74:246" ph="SELECT stude... students" />
+            <marker date="1473984581478" expanded="true" signature="297:326" ph="SELECT group... groups" />
+            <marker date="1473984581478" expanded="true" signature="859:939" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1067" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1068" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="954:1067" ph="SELECT '${$f... groups" />
+            <marker date="1473984581478" expanded="true" signature="6627:6770" ph="..." />
           </folding>
         </state>
       </provider>
@@ -475,6 +566,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/cathedrals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding>
+            <marker date="1473979691480" expanded="true" signature="74:106" ph="SELECT * FRO... cathedrals" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/subjects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="40" column="72" selection-start-line="39" selection-start-column="24" selection-end-line="40" selection-end-column="72" />
+          <folding>
+            <marker date="1473979623752" expanded="true" signature="74:103" ph="SELECT * FRO... subjects" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teachers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <marker date="1473979530023" expanded="true" signature="74:181" ph="SELECT * FRO... teachers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -483,42 +604,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/cathedrals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding>
-            <marker date="1473721487126" expanded="true" signature="74:98" ph="SELECT * FRO... cathedrals" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/subjects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding>
-            <marker date="1473721487218" expanded="true" signature="74:96" ph="SELECT * FRO... subjects" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/students.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="47" column="72" selection-start-line="44" selection-start-column="24" selection-end-line="47" selection-end-column="72" />
+        <state relative-caret-position="257">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <marker date="1473721222209" expanded="true" signature="74:96" ph="SELECT * FRO... students" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/teachers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
-          <folding>
-            <marker date="1473721487164" expanded="true" signature="74:96" ph="SELECT * FRO... teachers" />
+            <marker date="1473984581478" expanded="true" signature="74:203" ph="SELECT * FRO... students" />
+            <marker date="1473984581478" expanded="true" signature="74:246" ph="SELECT stude... students" />
+            <marker date="1473984581478" expanded="true" signature="297:326" ph="SELECT group... groups" />
+            <marker date="1473984581478" expanded="true" signature="859:939" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1067" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="859:1068" ph="INSERT INTO students... " />
+            <marker date="1473984581478" expanded="true" signature="954:1067" ph="SELECT '${$f... groups" />
+            <marker date="1473984581478" expanded="true" signature="6627:6770" ph="..." />
           </folding>
         </state>
       </provider>

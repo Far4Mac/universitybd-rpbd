@@ -3,7 +3,9 @@ require_once ('../dbconnect.php');
 
 $dbc = db_connect();
 
-$query = "SELECT * FROM teachers";
+$query = "SELECT t.first_name, t.second_name, t.third_name, p.pos_name, c.cath_name, t.t_birthday"
+ . " FROM teachers AS t JOIN positions AS p ON t.position_id=p.id JOIN cathedrals AS c"
+ . " ON t.cathedral_id=c.id";
 $data = mysqli_query($dbc, $query);
 ?>
 
@@ -44,8 +46,8 @@ $data = mysqli_query($dbc, $query);
                     <tr>
                         <?php while($row = mysqli_fetch_array($data)){
                             echo '<td>' . $row['first_name'] . '</td><td>' . $row['second_name'] .
-                                '</td><td>' . $row['third_name'] . '</td><td>' . $row['position_id'] .
-                                '</td><td>' . $row['cathedral_id'] . '</td><td>' . $row['birthday'] . '</td>';}?>
+                                '</td><td>' . $row['third_name'] . '</td><td>' . $row['pos_name'] .
+                                '</td><td>' . $row['cath_name'] . '</td><td>' . $row['t_birthday'] . '</td>';}?>
                     </tr>
                 </table>
             </div>

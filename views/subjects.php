@@ -3,7 +3,7 @@ require_once ('../dbconnect.php');
 
 $dbc = db_connect();
 
-$query = "SELECT * FROM subjects";
+$query = "SELECT sub_name FROM subjects";
 $data = mysqli_query($dbc, $query);
 ?>
 
@@ -38,7 +38,7 @@ $data = mysqli_query($dbc, $query);
                     </tr>
                     <tr>
                         <?php while($row = mysqli_fetch_array($data)){
-                            echo '<td>' . $row['name'] . '</td>';}?>
+                            echo '<td>' . $row['sub_name'] . '</td>';}?>
                     </tr>
                 </table>
             </div>
