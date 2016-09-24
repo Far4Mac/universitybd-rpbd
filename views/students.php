@@ -3,7 +3,7 @@ require_once ('../dbconnect.php');
 
 $dbc = db_connect();
 
-$query = "SELECT students.first_name, students.second_name, students.third_name, students.s_birthday, groups.group_name"
+$query = "SELECT students.id, students.first_name, students.second_name, students.third_name, students.s_birthday, groups.group_name"
  . " FROM students JOIN groups ON students.group_id=groups.id";
 $data = mysqli_query($dbc, $query);
 
@@ -23,6 +23,20 @@ if (isset($_POST['submit'])){
         header("Refresh:0");
     }
 }
+
+if(isset($_GET['action']))
+    $action = $_GET['action'];
+else
+    $action = "";
+
+if ($action == "delete"){
+    $id = $_GET['id'];
+
+    $query_del = "DELETE FROM students WHERE id='$id'";
+    mysqli_query($dbc, $query_del);
+    $home_url = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/students.php';
+    header('Location: ' . $home_url);
+}
 ?>
 
 
@@ -38,7 +52,7 @@ if (isset($_POST['submit'])){
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="jumbotron text-center">
+<div class="jumbotron text-center top-main">
     <h1>База данных</h1>
 </div>
 <div class="container">
@@ -65,7 +79,8 @@ if (isset($_POST['submit'])){
                         <?php while($row = mysqli_fetch_array($data)){
                         echo '<td>' . $row['first_name'] . '</td><td>' . $row['second_name'] .
                             '</td><td>' . $row['third_name'] . '</td><td>' . $row['s_birthday'] .
-                            '</td><td>' . $row['group_name'] . '</td></tr>';}?>
+                            '</td><td>' . $row['group_name'] . '</td><td><a href="students.php?action=delete&id=' . $row['id'] .
+                            '"><span class="glyphicon glyphicon-trash"></span></a></td></tr>';}?>
                     </tr>
                 </table>
             </div>
@@ -112,6 +127,7 @@ if (isset($_POST['submit'])){
                                             <?php while($row_g = mysqli_fetch_array($data_g)){
                                                 echo '<option value="' . $row_g['group_name'] . '">';}?>
                                     </datalist>
+                                        </div>
                                         </div>
                                 </fieldset>
                                 <div class="form-group">
