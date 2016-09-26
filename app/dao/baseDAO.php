@@ -3,6 +3,7 @@ define('DB_CONNECT_STRING', 'mysql:host=localhost;dbname=university');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 
+
 abstract class BaseDAO{
     protected $_connection;
 
@@ -44,7 +45,7 @@ abstract class BaseDAO{
             $queryHandler = $this->_connection->prepare($query);
             $queryHandler->execute();
             
-            return $queryHandler->fetch(PDO::FETCH_ASSOC);
+            return $queryHandler->fetchAll(PDO::FETCH_ASSOC);
         }catch (PDOException $e){
             die("Fetch error: " . $e->getMessage());
         }

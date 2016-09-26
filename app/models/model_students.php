@@ -1,25 +1,25 @@
 <?php
+
+include "app/dao/studentsDAO.php";
 class Model_Students extends Model{
-    private $_first_name;
-    private $_second_name;
-    private $_third_name;
-    private $_s_birthday;
-    private $_group_id;
-
-    function __construct($fname, $sname, $tname, $birth, $g_id)
-    {
-        $this->_first_name = $fname;
-        $this->_second_name = $sname;
-        $this->_third_name = $tname;
-        $this->_s_birthday = $birth;
-        $this->_group_id = $g_id;
-    }
-
-    function __construct1(){
+    
+    function __construct(){
 
     }
 
     public function get_data(){
-        return StudentsDAO::getAllStudents();
+        $data = new StudentsDAO();
+        return $data->selectAll();
+    }
+    
+    public function deleteRecord($id)
+    {
+        $data = new StudentsDAO();
+        return $data->deleteStudent($id);
+    }
+    
+    public function addStudent($fname, $sname, $tname, $birth, $gid){
+        $data = new StudentsDAO();
+        return $data->addStudent($fname, $sname, $tname, $birth, $gid);
     }
 }

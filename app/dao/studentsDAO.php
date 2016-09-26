@@ -1,4 +1,6 @@
 <?php
+include 'baseDAO.php';
+
 class StudentsDAO extends BaseDAO{
     protected $_tableName = 'students';
     protected $_primaryKey = 'id';
@@ -17,7 +19,7 @@ class StudentsDAO extends BaseDAO{
          . " VALUES(:fname, :sname, :tname, :birth, :gid)";
         
         try{
-            $queryHandler = parent::$this->_connection->prepare($query);
+            $queryHandler = $this->_connection->prepare($query);
             $parameters = array(':fname'=>$fname, ':sname'=>$sname, ':tname'=>$tname,':birth'=>$birth,':gid'=>$g_id);
             $queryHandler->execute($parameters);
         }catch (PDOException $e){
